@@ -1,8 +1,8 @@
-# XGBoost Regression Machine Learning Project - Big Mart 
+# XGBoost Regression Machine Learning Project - Calories Burn
 
 ## 1. Project Overview
 
-This project implements an XGBoost Regressor for predicting calories burn. XGBoost is an optimized gradient boosting algorithm that excels in predictive power and speed, making it a popular choice for regression tasks.
+This project implements an XGBoost Regressor for predicting calories burning. XGBoost is an optimized gradient boosting algorithm that excels in predictive power and speed, making it a popular choice for regression tasks.
 
 ## 2. Dataset Source
 
@@ -11,7 +11,7 @@ https://www.kaggle.com/datasets/fmendes/fmendesdat263xdemos
 ## 3. Features
 - **Data Preprocessing**: Data cleaning, normalization, and splitting into training and testing sets.
 - **Model Training**: Training XGBoost model using xgboost library.
-- **Model Evaluation**: Evaluating the performance of the model using metrics such as R-square and Mean Absolute Error
+- **Model Evaluation**: Evaluating the performance of the model using metrics such as R-square and Mean Absolute Error and Root Mean Squared Error
 - **Visualization**: Visualization of feature importance and model predictions versus actual values.
 
 
@@ -60,7 +60,7 @@ https://www.kaggle.com/datasets/fmendes/fmendesdat263xdemos
 
 Open the calories_burn.ipynb file and follow the step-by-step instructions provided in the notebook. The notebook includes:
 
-- **Data Loading and Preprocessing**: Load data from the BostonHousing.csv and perform necessary preprocessing and feature engineering.
+- **Data Loading and Preprocessing**: Load data from the calories.csv and exercise.csv and perform necessary preprocessing and feature engineering.
 - **Model Training**: Train an XGBoost Regressor with adjustable hyperparameters like learning_rate, n_estimators, max_depth, and more.
 - **Model Evaluation**: Evaluate the model using metrics like RMSE, MAE and R² to measure regression accuracy.
 - **Visualization**: Visualize feature importance using XGBoost's built-in plot functions and compare predicted versus actual values.
